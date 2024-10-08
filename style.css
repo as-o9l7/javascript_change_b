@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+:root[data-theme="color-a"] {
+    --color-main: #f9df76;
+    --color-sub: lightyellow;
+    --color-text: #734e30;
+}
+
+:root[data-theme="color-b"] {
+    --color-main:  #bdbf92;
+    --color-sub: #F2F3CC;
+    --color-text: #734e30;
+}
+
+:root[data-theme="color-c"] {
+    --color-main: #bbe2f1;
+    --color-sub: #E6F4F1;
+    --color-text: #734e30;
+}
+
+body {
+    background-color: var(--color-main);
+    color: var(--color-text);
+}
+
+p {
+    background-color: var(--color-sub);
+}
+
+/*ボタンの装飾*/
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+}
+
+#btn-a {
+    background-color: #ffcc66;
+    color: #fff;
+}
+
+#btn-b {
+    background-color: green;
+    color: #000;
+}
+
+#btn-c {
+    background-color: navy;
+    color: #fff;
+}
